@@ -58,6 +58,24 @@ h2 {
   align-items: center;
 }
 
+h2-2::before{
+    content: '';
+    position:absolute;
+    width: 150px;
+    height: 3px;
+    background: #3237b7;
+    border-radius: 7px;
+}
+
+h2-2 {
+  font-size: 24px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+
 h3 {
   font-size: 18px;
   margin: 10px 0 0 0;
@@ -91,6 +109,7 @@ hr {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  transition: top 0.3s;
 }
 
 
@@ -371,6 +390,7 @@ hr {
 
 .image-caption {
   width: 100%;
+  color: #4d5676;
   text-align: center;
   margin-top: -10px;
   margin-bottom: 10px;
