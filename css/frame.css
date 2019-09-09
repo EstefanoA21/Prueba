@@ -103,7 +103,7 @@ hr {
   background-color: rgba(33, 33, 33, 0);
   min-width: 300px;
   -webkit-touch-callout: none;
-  -webkit-transition: background-color
+  -webkit-transition: background-color;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -185,6 +185,40 @@ hr {
   position: relative;
   width: 100%;
   min-width: 300px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+  text-shadow: -1px 0 #3B5998, 0 1px #3B5998, 1px 0 #3B5998, 0 -1px #3B5998;
+}
+
+.fa-twitter {
+  color: white;
+  text-shadow: -1px 0 #55ACEE, 0 1px #55ACEE, 1px 0 #55ACEE, 0 -1px #55ACEE;
+}
+
+.fa-linkedin {
+  color: white;
+  text-shadow: -1px 0 #007bb5, 0 1px #007bb5, 1px 0 #007bb5, 0 -1px #007bb5;
+}
+
+.fa-instagram {
+  color: white;
+  text-shadow: -1px 0 #125688, 0 1px #125688, 1px 0 #125688, 0 -1px #125688;
 }
 
 .week {
